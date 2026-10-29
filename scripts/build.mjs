@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const url=process.env.SUPABASE_URL||'',key=process.env.SUPABASE_PUBLISHABLE_KEY||'';
+if(Boolean(url)!==Boolean(key))throw Error('Add BOTH SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY in Vercel.');
+if(url&&(!/^https:\/\/[a-zA-Z0-9.-]+(?::\d+)?\/?$/.test(url)))throw Error('SUPABASE_URL must be your https:// project URL, without /rest/v1.');
+if(key&&(!key.startsWith('sb_publishable_')))throw Error('Use the sb_publishable_ key from Settings > API Keys, never a secret or service-role key.');
+await fs.rm('dist',{recursive:true,force:true});await fs.cp('public','dist',{recursive:true});
+await fs.writeFile('dist/config.js','window.APP_CONFIG = '+JSON.stringify({supabaseUrl:url.replace(/\/$/,''),supabaseKey:key})+';\n');
+const modules=['core.js','storage.js','exports.js','app.js'];
+const code=(await Promise.all(modules.map(name=>fs.readFile(path.join('public',name),'utf8')))).map(s=>s.replace(/^import .*?;\n/gm,'').replace(/^export /gm,'')).join('\n');
+const css=await fs.readFile('public/styles.css','utf8');const html=await fs.readFile('public/index.html','utf8');
+const offline=html.replace('<link rel="stylesheet" href="./styles.css">',`<style id="offline-style">${css}</style>`).replace('<script src="./config.js"></script>','<script>window.APP_CONFIG = {};</script>\n<script id="snapshot" type="application/json">null</script>').replace('<script type="module" src="./app.js"></script>',`<script type="module" id="offline-runtime">${code}</script>`);
+await fs.writeFile('dist/offline-template.html',offline);
+await fs.writeFile('public/offline-template.html',offline);
+console.log(`Built dist/ · ${url?'Supabase connected':'local preview mode'} · no external runtime dependencies`);

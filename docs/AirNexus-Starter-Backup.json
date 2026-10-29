@@ -1,0 +1,890 @@
+{
+  "format": "airnexus-atlas-v1",
+  "campuses": {
+    "e9": {
+      "schemaVersion": 1,
+      "campusId": "e9",
+      "title": "AirNexus Olympiad",
+      "zones": [
+        {
+          "id": "e9-a",
+          "name": "A Block",
+          "category": "Academic",
+          "points": [
+            [
+              141,
+              280
+            ],
+            [
+              203,
+              247
+            ],
+            [
+              253,
+              327
+            ],
+            [
+              196,
+              358
+            ]
+          ],
+          "label": [
+            195,
+            304
+          ],
+          "verified": true,
+          "color": "#53b5ff",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-b",
+          "name": "B Block",
+          "category": "Academic",
+          "points": [
+            [
+              184,
+              209
+            ],
+            [
+              258,
+              160
+            ],
+            [
+              287,
+              207
+            ],
+            [
+              216,
+              258
+            ]
+          ],
+          "label": [
+            235,
+            207
+          ],
+          "verified": true,
+          "color": "#faab45",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-n1",
+          "name": "North Block 01",
+          "category": "Academic",
+          "points": [
+            [
+              254,
+              132
+            ],
+            [
+              313,
+              95
+            ],
+            [
+              346,
+              153
+            ],
+            [
+              288,
+              188
+            ]
+          ],
+          "label": [
+            301,
+            140
+          ],
+          "verified": false,
+          "color": "#b59bff",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-n2",
+          "name": "North Block 02",
+          "category": "Academic",
+          "points": [
+            [
+              340,
+              84
+            ],
+            [
+              420,
+              53
+            ],
+            [
+              467,
+              115
+            ],
+            [
+              385,
+              158
+            ]
+          ],
+          "label": [
+            404,
+            104
+          ],
+          "verified": false,
+          "color": "#ff778a",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-iaa",
+          "name": "IAA",
+          "category": "Academic",
+          "points": [
+            [
+              447,
+              190
+            ],
+            [
+              468,
+              171
+            ],
+            [
+              498,
+              168
+            ],
+            [
+              521,
+              188
+            ],
+            [
+              522,
+              224
+            ],
+            [
+              506,
+              250
+            ],
+            [
+              474,
+              257
+            ],
+            [
+              449,
+              234
+            ],
+            [
+              441,
+              211
+            ]
+          ],
+          "label": [
+            482,
+            211
+          ],
+          "verified": true,
+          "color": "#32c9a0",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-east",
+          "name": "East Complex",
+          "category": "Academic",
+          "points": [
+            [
+              530,
+              122
+            ],
+            [
+              601,
+              88
+            ],
+            [
+              628,
+              136
+            ],
+            [
+              606,
+              196
+            ],
+            [
+              538,
+              178
+            ]
+          ],
+          "label": [
+            578,
+            141
+          ],
+          "verified": false,
+          "color": "#f5d547",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-masjid",
+          "name": "Masjid",
+          "category": "Facilities",
+          "points": [
+            [
+              50,
+              247
+            ],
+            [
+              100,
+              224
+            ],
+            [
+              131,
+              291
+            ],
+            [
+              74,
+              313
+            ]
+          ],
+          "label": [
+            89,
+            269
+          ],
+          "verified": true,
+          "color": "#54d5de",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-cside",
+          "name": "C-side Building",
+          "category": "Academic",
+          "points": [
+            [
+              84,
+              346
+            ],
+            [
+              126,
+              328
+            ],
+            [
+              154,
+              397
+            ],
+            [
+              109,
+              411
+            ]
+          ],
+          "label": [
+            119,
+            369
+          ],
+          "verified": false,
+          "color": "#e58bd4",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-south",
+          "name": "South Block",
+          "category": "Academic",
+          "points": [
+            [
+              251,
+              309
+            ],
+            [
+              320,
+              272
+            ],
+            [
+              345,
+              309
+            ],
+            [
+              275,
+              349
+            ]
+          ],
+          "label": [
+            299,
+            308
+          ],
+          "verified": false,
+          "color": "#8acb56",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-court",
+          "name": "West Court",
+          "category": "Sports",
+          "points": [
+            [
+              109,
+              172
+            ],
+            [
+              163,
+              149
+            ],
+            [
+              209,
+              214
+            ],
+            [
+              158,
+              245
+            ]
+          ],
+          "label": [
+            158,
+            195
+          ],
+          "verified": false,
+          "color": "#fb8a60",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-lawn",
+          "name": "South Lawn",
+          "category": "Outdoor",
+          "points": [
+            [
+              195,
+              373
+            ],
+            [
+              270,
+              346
+            ],
+            [
+              316,
+              417
+            ],
+            [
+              231,
+              469
+            ]
+          ],
+          "label": [
+            254,
+            405
+          ],
+          "verified": false,
+          "color": "#85a0ed",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-parking",
+          "name": "North Parking",
+          "category": "Facilities",
+          "points": [
+            [
+              433,
+              47
+            ],
+            [
+              550,
+              3
+            ],
+            [
+              590,
+              44
+            ],
+            [
+              478,
+              119
+            ]
+          ],
+          "label": [
+            511,
+            57
+          ],
+          "verified": false,
+          "color": "#d5bb8c",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "e9-cafe",
+          "name": "AU Café",
+          "category": "Facilities",
+          "points": [
+            [
+              414,
+              257
+            ],
+            [
+              431,
+              247
+            ],
+            [
+              450,
+              268
+            ],
+            [
+              432,
+              279
+            ]
+          ],
+          "label": [
+            432,
+            264
+          ],
+          "verified": true,
+          "color": "#7dd4b5",
+          "notes": "",
+          "rooms": []
+        }
+      ],
+      "events": []
+    },
+    "h11": {
+      "schemaVersion": 1,
+      "campusId": "h11",
+      "title": "AirNexus Olympiad",
+      "zones": [
+        {
+          "id": "h11-hostel",
+          "name": "Hostel Block",
+          "category": "Facilities",
+          "points": [
+            [
+              280,
+              15
+            ],
+            [
+              319,
+              4
+            ],
+            [
+              378,
+              99
+            ],
+            [
+              329,
+              126
+            ]
+          ],
+          "label": [
+            328,
+            66
+          ],
+          "verified": true,
+          "color": "#53b5ff",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-courts",
+          "name": "Sports Courts",
+          "category": "Sports",
+          "points": [
+            [
+              270,
+              216
+            ],
+            [
+              393,
+              146
+            ],
+            [
+              435,
+              224
+            ],
+            [
+              313,
+              298
+            ]
+          ],
+          "label": [
+            352,
+            221
+          ],
+          "verified": false,
+          "color": "#faab45",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-pitch",
+          "name": "Turf Ground",
+          "category": "Sports",
+          "points": [
+            [
+              369,
+              268
+            ],
+            [
+              435,
+              231
+            ],
+            [
+              464,
+              275
+            ],
+            [
+              396,
+              315
+            ]
+          ],
+          "label": [
+            416,
+            273
+          ],
+          "verified": false,
+          "color": "#b59bff",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-court2",
+          "name": "South Court",
+          "category": "Sports",
+          "points": [
+            [
+              282,
+              306
+            ],
+            [
+              346,
+              267
+            ],
+            [
+              390,
+              336
+            ],
+            [
+              327,
+              377
+            ]
+          ],
+          "label": [
+            335,
+            323
+          ],
+          "verified": false,
+          "color": "#ff778a",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-field",
+          "name": "Open Sports Field",
+          "category": "Outdoor",
+          "points": [
+            [
+              334,
+              381
+            ],
+            [
+              465,
+              303
+            ],
+            [
+              526,
+              390
+            ],
+            [
+              392,
+              467
+            ]
+          ],
+          "label": [
+            433,
+            387
+          ],
+          "verified": false,
+          "color": "#32c9a0",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-west",
+          "name": "Academic Wing 01",
+          "category": "Academic",
+          "points": [
+            [
+              426,
+              476
+            ],
+            [
+              498,
+              485
+            ],
+            [
+              495,
+              516
+            ],
+            [
+              422,
+              507
+            ]
+          ],
+          "label": [
+            460,
+            496
+          ],
+          "verified": false,
+          "color": "#f5d547",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-north",
+          "name": "Academic Wing 02",
+          "category": "Academic",
+          "points": [
+            [
+              499,
+              477
+            ],
+            [
+              548,
+              406
+            ],
+            [
+              574,
+              422
+            ],
+            [
+              523,
+              492
+            ]
+          ],
+          "label": [
+            539,
+            450
+          ],
+          "verified": false,
+          "color": "#54d5de",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-long",
+          "name": "Academic Wing 03",
+          "category": "Academic",
+          "points": [
+            [
+              503,
+              512
+            ],
+            [
+              528,
+              501
+            ],
+            [
+              620,
+              647
+            ],
+            [
+              597,
+              661
+            ]
+          ],
+          "label": [
+            562,
+            578
+          ],
+          "verified": false,
+          "color": "#e58bd4",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-main",
+          "name": "Main Building",
+          "category": "Academic",
+          "points": [
+            [
+              419,
+              545
+            ],
+            [
+              506,
+              583
+            ],
+            [
+              469,
+              642
+            ],
+            [
+              391,
+              604
+            ]
+          ],
+          "label": [
+            448,
+            594
+          ],
+          "verified": false,
+          "color": "#8acb56",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-eastcourt",
+          "name": "East Hard Court",
+          "category": "Sports",
+          "points": [
+            [
+              555,
+              318
+            ],
+            [
+              617,
+              282
+            ],
+            [
+              734,
+              476
+            ],
+            [
+              675,
+              510
+            ]
+          ],
+          "label": [
+            646,
+            395
+          ],
+          "verified": false,
+          "color": "#fb8a60",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-northeast",
+          "name": "North-east Area 01",
+          "category": "Other",
+          "points": [
+            [
+              460,
+              170
+            ],
+            [
+              532,
+              126
+            ],
+            [
+              564,
+              176
+            ],
+            [
+              495,
+              221
+            ]
+          ],
+          "label": [
+            512,
+            173
+          ],
+          "verified": false,
+          "color": "#85a0ed",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-northeast2",
+          "name": "North-east Area 02",
+          "category": "Other",
+          "points": [
+            [
+              499,
+              249
+            ],
+            [
+              555,
+              214
+            ],
+            [
+              583,
+              263
+            ],
+            [
+              529,
+              299
+            ]
+          ],
+          "label": [
+            543,
+            256
+          ],
+          "verified": false,
+          "color": "#d5bb8c",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-plaza",
+          "name": "Central Plaza",
+          "category": "Outdoor",
+          "points": [
+            [
+              331,
+              533
+            ],
+            [
+              400,
+              506
+            ],
+            [
+              426,
+              542
+            ],
+            [
+              388,
+              604
+            ],
+            [
+              333,
+              632
+            ],
+            [
+              305,
+              592
+            ]
+          ],
+          "label": [
+            360,
+            567
+          ],
+          "verified": false,
+          "color": "#7dd4b5",
+          "notes": "",
+          "rooms": []
+        },
+        {
+          "id": "h11-eastopen",
+          "name": "East Open Area",
+          "category": "Outdoor",
+          "points": [
+            [
+              625,
+              562
+            ],
+            [
+              668,
+              536
+            ],
+            [
+              732,
+              653
+            ],
+            [
+              686,
+              682
+            ]
+          ],
+          "label": [
+            679,
+            610
+          ],
+          "verified": false,
+          "color": "#d99efa",
+          "notes": "",
+          "rooms": []
+        }
+      ],
+      "events": []
+    }
+  }
+}

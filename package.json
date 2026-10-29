@@ -1,0 +1,9 @@
+{
+  "name": "airnexus-campus-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Editable AirNexus Olympiad maps for Air University E-9 and H-11",
+  "scripts": {"build": "node scripts/build.mjs", "dev": "node scripts/dev.mjs", "test": "node --test tests/*.test.mjs"},
+  "engines": {"node": ">=22"}
+}
